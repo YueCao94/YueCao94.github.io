@@ -1,21 +1,21 @@
 basic_settings:
-  site_title: Simples
-  site_tagline: A super simple blogging theme for Jekyll.
-  favicon_image: /images/favicon.png
+  site_title: Welcome to Yue Cao's homepage!
+  site_tagline: Impossible only means that you haven’t found the solution yet.
+  favicon_image: /images/yuecao.jpg
 
 header_settings:
-  avatar_image: /images/avatar.jpg
+  avatar_image: /images/yuecao.jpg
   logo_image: 
   logo_width: 200
 
 menu_settings:
   menu_items:
-    - title: 'Latest'
+    - title: 'About me'
       url: '/'
-    - title: 'Projects'
+    - title: 'Research'
+      url: '/Research/'
+    - title: 'Publications'
       url: '/projects/'
-    - title: 'About'
-      url: '/about'
     - title: 'Contact'
       url: '/contact'
 

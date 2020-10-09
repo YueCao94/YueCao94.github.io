@@ -10,24 +10,27 @@ featured_image: /images/social.jpg
 	<div class="wrap">
 
 		{% for project in site.projects reversed %}
+		<h2> Prepints/Under Review </h2>
+		<ul id="myUL" align="justify">
+		<li> <strong>Y. Cao</strong>, T. Chen, Z. Wang, and Y. Shen. <a href="https://openreview.net/pdf?id=4artD3N3xB0">"Bayesian Learning to Optimize:  Quantifying the Optimizer Uncertainty."</a> Under review for International Conference on Learning Representations, 2021 </li>
+		 <li> <strong>Y. Cao</strong>, P. Das, P. Chen, V. Chen., I. Melnyk, and Y. Shen. <a href="https://openreview.net/pdf?id=1-Mh-cWROZ">"Fold2Seq: A Joint Sequence(1D)-Fold(3D) Embedding-based Generative Model for  Protein Design."</a> Under review for International Conference on Learning Representations, 2021 </li>
+		<li> <strong>Y. Cao</strong> and Y. Shen. <a href="https://www.biorxiv.org/content/10.1101/2020.09.27.315937v1.full">"TALE: Transformer-based protein function Annotation with joint sequence–Label Embedding."</a> Under review for Bioinformatics, 2020 </li>
+		<li> R. Taftaf and other authors including <strong>Y. Cao</strong>.  <a href="">"ICAM1 initiates CTC cluster formation and lung metastasis of triple negative breast cancer."</a> Under review for Nature Communications, 2020 </li>
+		</ul>
 
-		<article class="listing-post">
-
-			<div class="listing-post__header">
-				<h2 class="listing-post__title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
-				<p class="listing-post__subtitle">{{ project.subtitle }}</p>
-			</div>
-
-			{% if project.featured_image %}
-			<a href="{{ project.url | relative_url }}" class="listing-post__image" style="background-image: url({{ project.featured_image | relative_url }});"></a>
-			{% endif %}
-
-			<div class="listing-post__content">
-				<p>{{ project.excerpt }}</p>
-				<p><a href="{{ project.url | relative_url }}" class="button">View Project</a>
-			</div>
-
-		</article>
+		<h2> Published </h2>
+		<ul id="myUL" align="justify">
+		<li> <strong>Y. Cao</strong> and Y. Shen. <a href="https://pubs.acs.org/doi/10.1021/acs.jctc.0c00476">"Bayesian Active Learning for Optimization and Uncertainty Quantification in Protein Docking."</a> Journal of Chemical Theory and Computation, 2020 </li>
+		 <li> <strong>Y. Cao</strong>, T. Chen, Z. Wang, and Y. Shen. <a href="https://papers.nips.cc/paper/9641-learning-to-optimize-in-swarms">"Learning to Optimize in Swarms."</a> Advances in Neural Information Processing Systems, 2019 </li>
+		<li> <strong>Y. Cao</strong> and Y. Shen. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.25888">"Energy-based Graph Convolutional Networks for Scoring Protein Docking Models."</a> Proteins, 2020 </li>
+		<li> M. Karimi*, S. Zhu*, <strong>Y. Cao</strong>* and Y. Shen. <a href="https://pubs.acs.org/doi/10.1021/acs.jcim.0c00593">"De Novo Protein Design for Novel Folds Using GuidedConditional Wasserstein Generative Adversarial Networks."</a> Journal of Chemical Information and Modeling, 2020 </li>
+		<li> <strong>Y. Cao</strong>, Y. Sun, M. Karimi, H. Chen, O. Moronfoye, and Y. Shen. <a href="https://pubmed.ncbi.nlm.nih.gov/31144781/">"Predicting Pathogenicity of Missense Variants with Weakly Supervised Regression."</a> Human Mutation, 2019 </li>
+		<li> M. Kawaguchi, N. Dashzeveg, <strong>Y. Cao</strong>,  Y. Jia, X. liu, Y. Shen, and H. Liu. <a href="https://pubmed.ncbi.nlm.nih.gov/31969394/">"Extracellular Domains I and II of cell-surface glycoprotein CD44 mediate its trans-homophilic dimerization and tumor cluster aggregation"</a> Journal of Biological Chemistry, 2020 </li>
+		<li> X. Liu  and  other authors  including <strong>Y. Cao</strong>. <a href="https://cancerdiscovery.aacrjournals.org/content/9/1/96">"Homophilic  CD44  Interactions  Mediate  Tumor Cell Aggregation and Polyclonal Metastasis in Patient-derived Breast Cancer Models."</a> Cancer Discovery, 2019 </li>
+		<li> M.  S  Cline,  G.  Babbi,  S.  Bonache, <strong>Y. Cao</strong>, et  al. <a href="https://pubmed.ncbi.nlm.nih.gov/31294896/">"Assessment of blind predictions of the clinical significance of BRCA1 and BRCA2 variants"</a> Human Mutation, 2019 </li>
+		<li> M. Lensink and other authors including <strong>Y. Cao</strong>. <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/prot.25838.">"Blind prediction of Homo- and Hetero- Protein Complexes: The CASP13-CAPRI Experiment."</a> Proteins: Structure, Function, and Bioinformatics, 2019 </li>
+		<li> A. Voskanian and other authors including <strong>Y. Cao</strong>. <a href="https://pubmed.ncbi.nlm.nih.gov/31241222/">"Assessing the Performance of in-silico Methods for Predicting the Pathogenicity of Variants in the Gene CHEK2 among Hispanic Females with Breast Cancer."</a> Human Mutation, 2019 </li>
+		</ul>
 
 		{% endfor %}
 
